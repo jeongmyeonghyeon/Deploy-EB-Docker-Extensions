@@ -32,3 +32,4 @@ DATABASES = config_secret_deploy['django']['databases']
 print('@@@@@@ DEBUG:', DEBUG)
 print('@@@@@@ ALLOWED_HOSTS:', ALLOWED_HOSTS)
 print(DATABASES)
+print('STATIC_DIR: ', STATIC_DIR)
